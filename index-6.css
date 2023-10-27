@@ -1,0 +1,94 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: roboto;
+}
+footer {
+    display: flex;
+    flex-direction: column;
+    height: 216px;
+    padding-left: 165px;
+    padding-right: 165px;
+    background-color: #E7ECFF;
+}
+
+footer .copy {
+    color: var(--color-main-blue-400,#939EA4);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+footer .land {
+    color: var(--color-logo-primary,#37447E);
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 38px
+}
+
+footer .btn {
+    width: 109px;
+    height: 26px;
+    border-radius: 2px;
+    background-color: #111B47;
+    color: var(--color-secondary-white-100-general,#fff);
+    text-align: center;
+    font-family: roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px;
+}
+
+footer .allow {
+    display: flex;
+    gap: 60px;
+    color: var(--color-main-blue-300,#929ECC);
+    font-family: roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    
+}
+
+footer .line {
+    border-bottom: 1px solid#CDD1D4;
+}
+
+
+footer .fall-top {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 61px;
+    padding-bottom: 40px;
+}
+
+footer .fall-down {
+    display: flex;
+    justify-content: space-between;
+    height: 76px;
+    padding-top: 20px;
+}
+
+footer #instagram {
+    margin-left: 30px;
+}
+
+footer #youtube {
+    margin-left: 30px;
+}
+
+footer #twitter {
+    margin-left: 30px;
+}
+
+footer #link {
+    margin-left: 30px;
+}
+
+
+
+
